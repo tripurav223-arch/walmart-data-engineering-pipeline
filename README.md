@@ -58,3 +58,13 @@ The Airflow DAG was executed successfully, with the Silver, Gold, and dbt testin
 - Include Airflow and Databricks execution screenshots.
 - Expand automated data quality tests.
 - Add CI/CD validation for dbt models.
+
+## Airflow Pipeline Execution
+
+The Airflow DAG successfully executed all three tasks:
+
+- `run_silver`
+- `run_gold`
+- `run_dbt_tests`
+
+![Successful Airflow Pipeline](screenshots/airflow_pipeline_success.png)
