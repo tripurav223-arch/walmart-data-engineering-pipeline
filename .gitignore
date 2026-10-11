@@ -1,0 +1,21 @@
+# Python virtual environments
+.venv/
+.venv-dbt/
+__pycache__/
+*.pyc
+
+# Passwords and credentials
+.env
+.env.*
+profiles.yml
+*.pem
+*.key
+
+# dbt generated files
+**/target/
+**/dbt_packages/
+**/logs/
+
+# Mac files
+.DS_Store
+.venv-airflow/

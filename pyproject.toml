@@ -1,0 +1,8 @@
+[project]
+name = "walmart-data-project"
+version = "0.1.0"
+description = "Walmart Data Engineering End-to-End Project"
+requires-python = ">=3.14"
+dependencies = [
+    "psycopg2-binary>=2.9.13",
+]

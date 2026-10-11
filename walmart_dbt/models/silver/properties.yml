@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: "Cleaned orders data in the Silver layer"
+    columns:
+      - name: order_id
+        data_tests:
+          - not_null
+          - unique
+
+  - name: stg_customers
+    description: "Cleaned customer data in the Silver layer"
+    columns:
+      - name: customer_id
+        data_tests:
+          - not_null
+          - unique
